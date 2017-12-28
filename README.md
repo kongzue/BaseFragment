@@ -40,9 +40,22 @@ public class MainHomeFragment extends BaseFragment {
 }
 
 ```
+### 小工具调用方法说明
+```
+//简易吐司：
+toast(Obj);
+//简易Log打印日志：
+log(Obj);
+//dip与像素px转换：
+dip2px(Context context, float dpValue);
+//像素px与dip转换：
+dip2px(Context context, float dpValue);
+//属性动画：
+moveAnimation(Object obj, String perference, float aimValue, long time, long delay);
 
 ## 提示
 还有不完善的地方正在完善，如有问题欢迎反馈
+```
 
 ## 开源协议
 ```
